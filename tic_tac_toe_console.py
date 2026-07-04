@@ -9,9 +9,6 @@ Modes supported:
     2. Human vs AI (Easy - Random moves)
     3. AI vs AI (watch two Minimax agents play)
 
-Author: (your name here)
-"""
-
 import math
 import random
 import time
