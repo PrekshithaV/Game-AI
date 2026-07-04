@@ -129,23 +129,7 @@ game_ai_project/
 
 ---
 
-## 6. How to Extend This Project (Ideas for Improvement)
-
-If you want to build on this for a more advanced submission:
-- **Add a scoreboard** that tracks wins/losses/draws across multiple rounds.
-- **Add difficulty levels to the GUI** (currently the GUI only uses Hard mode).
-- **Move to a 4x4 or Connect-4 board** and add a **depth-limited Minimax
-  with a heuristic evaluation function**, since full-depth search
-  becomes too slow on larger boards — this is exactly the technique
-  real Chess engines use.
-- **Add Chess** as a stretch goal using the `python-chess` library for
-  move generation/validation, combined with a heuristic Minimax
-  (material count + positional tables) since full-game-tree search is
-  computationally infeasible for Chess.
-
----
-
-## 7. Sample Output (Console, AI vs AI)
+## 6. Sample Output (Console, AI vs AI)
 
 ```
 X plays position 1
